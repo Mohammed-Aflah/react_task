@@ -21,7 +21,7 @@ function Header(){
         }
     ]
     return (
-        <header className="h-16 flex items-center justify-center bg-gray-800">
+        <header className="h-16 flex items-center justify-center bg-gray-800 mx-auto">
             <ul className="flex gap-9 text-white">
                 {links.map((val,key)=>(
                     <li key={key} className="no-underline">
